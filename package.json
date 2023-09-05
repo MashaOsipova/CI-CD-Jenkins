@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:all": "cypress run --record --key 5176be2e-e5a5-493b-9ad6-4d16373ca1d9",
-    "test:page": "cypress run --group Page --spec cypress/e2e/page.cy.js --record --key 5176be2e-e5a5-493b-9ad6-4d16373ca1d9 --ci-build-id 1",
-    "test:login": "cypress run --group Login --spec cypress/e2e/login.cy.js --record --key 5176be2e-e5a5-493b-9ad6-4d16373ca1d9 --ci-build-id 1",
-    "test:book": "cypress run --group Book --spec cypress/e2e/book.cy.js --record --key 5176be2e-e5a5-493b-9ad6-4d16373ca1d9 --ci-build-id 1",
+    "test:all": "cypress run --record --key c4f2e670-74b2-45a5-804e-722adfae15cd",
+    "test:page": "cypress run --group Page --spec cypress/e2e/page.cy.js --record --key c4f2e670-74b2-45a5-804e-722adfae15cd --ci-build-id 1",
+    "test:login": "cypress run --group Login --spec cypress/e2e/login.cy.js --record --key c4f2e670-74b2-45a5-804e-722adfae15cd --ci-build-id 1",
+    "test:book": "cypress run --group Book --spec cypress/e2e/book.cy.js --record --key c4f2e670-74b2-45a5-804e-722adfae15cd --ci-build-id 1",
     "test": "npm run test:page & npm run test:login & npm run test:book"
   },
   "keywords": [],
